@@ -26,8 +26,8 @@ datos_sucios = st.text_area(
 
 if st.button("Limpiar y Estructurar Datos") and datos_sucios:
     # 2. Lógica de conteo de filas para la prueba gratuita
-     lineas = [linea.strip() for linea in datos_sucios.strip().split("\n") if linea.strip()]
-     total_leads = len(lineas)
+    lineas = [linea.strip() for linea in datos_sucios.strip().split("\n") if linea.strip()]
+    total_leads = len(lineas)
     
     es_pro = (codigo_usuario == CODIGO_PRO_VALIDO)
     
