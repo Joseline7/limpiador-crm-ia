@@ -4,7 +4,7 @@ from openai import OpenAI
 from schema import BaseDatosLimpia
 
 st.set_page_config(page_title="Limpiador de Leads con IA", page_icon="🪄")
-st.title("🪄 Limpiador Inteligente de Leads para CRM")
+st.title("🪄 Limpiador de Leads para CRM")
 st.subheader("Pega tus datos sucios y la IA los estructurará automáticamente")
 
 # 1. Configuración del modelo de negocio en la barra lateral
